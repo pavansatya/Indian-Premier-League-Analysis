@@ -1,4 +1,4 @@
-# Indian Premier League Analysis
+# [Indian Premier League Analysis](https://www.novypro.com/project/indian-premier-league-analysis-2)
 
 Indian Premier League is a twenty-twenty cricket tournament played between 10 franchises from players across all cricketing nations. 
 
