@@ -24,6 +24,13 @@ CREATE TABLE ipl_matches_2008_2022
     umpire2 varchar(50)
 );
 
+LOAD DATA LOCAL INFILE 'your_file_path/ipl_matches_2008_2022.csv'
+INTO TABLE ipl_matches_2008_2022
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"' 
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
+
 SELECT * FROM ipl_matches_2008_2022;
 
 CREATE TABLE ipl_ball_by_ball_2008_2022
@@ -46,6 +53,13 @@ CREATE TABLE ipl_ball_by_ball_2008_2022
 	fielders_involved varchar(50),
 	batting_team varchar(50)
 );
+
+LOAD DATA LOCAL INFILE 'your_file_path/ipl_ball_by_ball_2008_2022.csv'
+INTO TABLE ipl_matches_2008_2022
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"' 
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
 
 SELECT * FROM ipl_ball_by_ball_2008_2022;
 
